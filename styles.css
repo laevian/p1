@@ -1,0 +1,43 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #ddeedd;	
+	font-family: "Segoe Ui Light", "Tahoma", sans-serif;
+}
+
+.container
+{
+	background-color: #ffffff;
+	border: 1px solid #aaaaaa;
+	width: 90%;
+	padding: 5rem;
+	box-sizing: border-box;
+	position: absolute;
+	margin: 5%;
+	box-shadow: 0px 5px 5px #cccccc;
+	color: #454545;
+}
+
+.profilepic
+{
+	width: 20%;
+	float: left;
+	margin-right: 5%;
+}
+
+.body
+{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	margin: 5% 5% 5% 0;
+}
+
+.projectlinks
+{
+	width: 15%;
+	display: inline-block;
+	color: #aaaaaa;
+	margin-top: 5%;
+}
