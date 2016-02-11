@@ -1,7 +1,8 @@
 #February 10, 2016
 
-Homepage for Leslie's DWA15 course page.
+Leslie Pocklington P1
 
 #Live Project
 
 p1.lpocklin.me
+

@@ -2,42 +2,67 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color: #ddeedd;	
+	background-image: url("images/waterfall.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	font-family: "Segoe Ui Light", "Tahoma", sans-serif;
+}
+
+h1
+{
+	font-size: 3rem;
+	font-weight: 200;
+	display: inline-block;
+	margin-bottom: 2rem;
+	margin-top: 0;
 }
 
 .container
 {
-	background-color: #ffffff;
-	border: 1px solid #aaaaaa;
-	width: 90%;
-	padding: 5rem;
+	z-index: 3;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 80%;
+	padding: 3rem;
 	box-sizing: border-box;
 	position: absolute;
-	margin: 5%;
-	box-shadow: 0px 5px 5px #cccccc;
-	color: #454545;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	color: #ffffff;
 }
 
 .profilepic
 {
-	width: 20%;
+	width: 40%;
 	float: left;
 	margin-right: 5%;
 }
 
-.body
+.bodytext
 {
 	width: 50%;
 	display: inline-block;
 	float: left;
-	margin: 5% 5% 5% 0;
+	margin: 0 5% 5% 0;
 }
 
 .projectlinks
 {
-	width: 15%;
-	display: inline-block;
-	color: #aaaaaa;
-	margin-top: 5%;
+position: absolute;
+bottom: 0rem;
+right: -10rem;
+padding: 1rem;
+background-color:  rgba(0, 0, 0, 0.8);
+}
+
+.bold
+{
+	font-weight: 600;
+}
+
+a
+{
+color: #ffffff;
+text-decoration: none;
+border-bottom: 1px dashed #ffffff;
 }
